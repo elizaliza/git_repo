@@ -80,6 +80,16 @@ git branch -d branch/name
 ```
 This command will delete brach called branch/name. 
 
+```
+git fetch
+```
+This command will check if there is any difference between your cloned repository/local repository and remote repository. fetch will not copy anything, it will just fo and check the remote and that's it. Read about git pull..
+
+```
+git pull
+```
+This command will go and check your remote repository for changes and will copy changes to your local repository. See the difference between fetch and pull. https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository. (well explained link for fetch and pull)
+
 
 #### Questions
 
@@ -94,4 +104,4 @@ What is GitHub?
 What is Git?
 ```
 - git is the tool which support version control system. 
-Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems)
+Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems) 
