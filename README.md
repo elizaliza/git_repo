@@ -76,9 +76,25 @@ git checkout branch/name
 This command will switch branch to branch/name branch. 
 
 ```
-git branch -d branch/name 
+git branch -d branch/name(local-branch-name) 
 ```
-This command will delete brach called branch/name. 
+This command will delete brach called branch/name. Note: In some cases, Git might refuse to delete your local branch: when it contains commits that haven't been merged into any other local branches or pushed to a remote repository. This is a very sensible rule that protects you from inadvertently losing commit data.
+
+```
+git branch -D <local-branch-name>
+```
+This will force deletion of the branch, even if it contains unmerged / unpushed commits. It goes without saying: please be careful with this command.
+
+```
+git push origin --delete <remote-branch-name>
+```
+To delete a remote branch.
+
+
+
+!!!commands to learn
+git blame
+git fetch and git pull prractice
 
 ```
 git fetch
@@ -122,4 +138,17 @@ Difference between git fetch and git pull?
 https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository.
 ```
 
+How do I delete a local/remote branch in Git?
+```
+https://www.git-tower.com/learn/git/faq/delete-local-branch/
+```
 
+What does git pull origin master do?
+```
+https://www.git-tower.com/learn/git/faq/git-pull-origin-master/
+```
+
+What is git push?
+```
+https://www.git-tower.com/learn/git/commands/git-push/#:~:text=In%20case%20you%20are%20using,Push%22%20button%20in%20the%20toolbar.
+```
