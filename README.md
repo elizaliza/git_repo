@@ -105,3 +105,21 @@ What is Git?
 ```
 - git is the tool which support version control system. 
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems) 
+
+How to add your(machine's) ssh key to GitLab? See below link, everything is explained step by step. 
+```
+https://docs.gitlab.com/ee/ssh/
+```
+
+How to import your GitHub repository to GitLab? See below links.
+```
+https://docs.gitlab.com/ee/user/project/import/github.html#use-cases
+https://stackoverflow.com/questions/54972004/move-a-repository-from-github-to-gitlab#:~:text=Import%20will%20take%20a%20couple,wiki%2C%20issues%20and%20merge%20requests.
+```
+
+Difference between git fetch and git pull?
+```
+https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository.
+```
+
+
