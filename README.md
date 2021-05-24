@@ -90,12 +90,6 @@ git push origin --delete <remote-branch-name>
 ```
 To delete a remote branch.
 
-
-
-!!!commands to learn
-git blame
-git fetch and git pull prractice
-
 ```
 git fetch
 ```
@@ -106,6 +100,13 @@ git pull
 ```
 This command will go and check your remote repository for changes and will copy changes to your local repository. See the difference between fetch and pull. https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository. (well explained link for fetch and pull)
 
+
+
+!!!commands to learn
+```
+git blame
+git fetch and git pull prractice
+```
 
 #### Questions
 
