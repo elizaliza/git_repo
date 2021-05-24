@@ -158,3 +158,7 @@ How to Push Local Git Repo to Remote Repo in GitHub?
 ```
 https://jdhao.github.io/2018/05/16/git-push-local-to-remote/
 ```
+Git cheat cheet
+```
+https://training.github.com/downloads/github-git-cheat-sheet/
+```
